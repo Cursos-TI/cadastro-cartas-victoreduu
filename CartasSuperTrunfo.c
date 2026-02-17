@@ -30,7 +30,7 @@ printf("========================================\n\n");
 printf("Você irá cadastrar duas cartas em 7 passos\n");
 printf("Digite as informações com atenção.\n\n");
 
-
+    //Entrada de dados carta 1
     printf("\n\nCarta 1 \n");
         printf("1) Por favor digite o nome do estado: ");
         scanf("%s", estado);
@@ -46,7 +46,8 @@ printf("Digite as informações com atenção.\n\n");
         scanf("%f", &pib);
         printf("7) Por favor digite o número de pontos turísticos da cidade: ");
         scanf("%d", &pontos_turisticos);
-
+    
+    //entrada de dados carta 2
     printf("\n\nCarta 2 \n");
         printf("1) Por favor digite o nome do estado: ");
         scanf("%s", estado2);
@@ -62,9 +63,9 @@ printf("Digite as informações com atenção.\n\n");
         scanf("%f", &pib2);
         printf("7) Por favor digite o número de pontos turísticos da cidade: ");
         scanf("%d", &pontos_turisticos2 );
-
         printf("========================================\n");
-        printf("CARTA 1\n");
+    //saida de dados carta 1
+    printf("CARTA 1\n");
         printf("Estado: %s\n", estado);
         printf("Código: %s\n", codigo);
         printf("Cidade: %s\n", cidade);
@@ -73,7 +74,8 @@ printf("Digite as informações com atenção.\n\n");
         printf("PIB: %.2f bilhões\n", pib);
         printf("Pontos Turísticos: %d\n", pontos_turisticos);
         printf("========================================\n");
-
+    
+    //saida de dados carta 2
     printf("\nCARTA 2\n");
         printf("Estado: %s\n", estado2);
         printf("Código: %s\n", codigo2);
@@ -83,6 +85,5 @@ printf("Digite as informações com atenção.\n\n");
         printf("PIB: %.2f bilhões\n", pib2);
         printf("Pontos Turísticos: %d\n", pontos_turisticos2);
         printf("========================================\n");
-
 return 0;
 }
